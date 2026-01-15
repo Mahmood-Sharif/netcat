@@ -49,27 +49,27 @@ go run .
 go run . 2525
 
 
-Starts the server on a custom port.
+### Starts the server on a custom port.
 
-If invalid arguments are provided:
+### If invalid arguments are provided:
 
 [USAGE]: ./TCPChat $port
 
-Connect a client
+### Connect a client
 
-Use NetCat from another terminal:
+### Use NetCat from another terminal:
 
 nc localhost 8989
 
-Upon connection, the server prompts for a non-empty username before joining the chat.
+### Upon connection, the server prompts for a non-empty username before joining the chat.
 
-Message Format:
+### Message Format:
 
-Messages are broadcast to all clients using the following format:
+### Messages are broadcast to all clients using the following format:
 
 [YYYY-MM-DD HH:MM:SS][username]: message
 
-Notes:
+### Notes:
 
 The project is intended as a learning and demonstration tool.
 
