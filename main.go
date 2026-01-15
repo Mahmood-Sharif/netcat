@@ -28,5 +28,6 @@ func main() {
 		fmt.Println("[USAGE]: ./TCPChat [server|client] $port")
 	}
 }
+
 // RunServer starts the TCP chat server on the specified port.
 // RunClient connects to the TCP chat server on the specified port.
